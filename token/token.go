@@ -7,7 +7,7 @@ type Token struct {
 	Literal	string
 }
 
-const {
+const (
 	ILLEGAL = "ILLEGAL"  // token not defined below
 	EOF 	= "EOF"		 // parser can stop
 	
@@ -30,4 +30,4 @@ const {
 	// Keywords
 	FUNCTION = "FUNCTION"
 	LET		 = "LET"
-}
+)
